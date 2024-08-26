@@ -1,0 +1,91 @@
+nav {
+    background-color: rgb(213, 196, 196);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    
+  }
+  
+  ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    align-items: center;
+  }
+  
+  ul.menu li {
+    margin-right: 0; 
+    
+  }
+  ul.menu li.icon {
+    margin-right: 0; 
+    position: relative;
+  }
+  
+  ul.menu li.icon:hover .icon-text {
+    display: inline-block; /* Show the icon text on hover */
+  }
+  li {
+    margin-right: 25px; /* Add some spacing between menu items */
+    font-size: 27px; /* Increase the font size */
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:  #cccccc;
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: antiquewhite;
+}
+
+.about-section img {
+    margin-right: 20px; /* Space between image and text */
+}
+
+.about-section .text {
+    max-width: 600px; /* Adjust width as needed */
+}
+
+.social-media-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(88, 35, 35); /* Adjust this color to match your background */
+    padding: 10px 0;
+}
+
+.social-media-bar .social-icon {
+    color: antiquewhite; /* Adjust this color to match the icon color in your image */
+    font-size: 24px; /* Adjust the size of the icons */
+    margin: 0 15px; /* Space between icons */
+    text-decoration: none;
+}
+
+.social-media-bar .social-icon:hover {
+    color: #cfa1a1; /* Hover color */
+}
+
+/* Optional: if you want the line separator on each side */
+.social-media-bar:before,
+.social-media-bar:after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #b56565; /* Adjust to match your line color */
+    margin: 0 15px;
+}
+  

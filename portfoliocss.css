@@ -1,0 +1,58 @@
+/*slide1*/
+  .carousel-container {
+    width: 80%;
+    max-width: 1800px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 60px;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.3s;
+  }
+  
+  .cover {
+    flex: 0 0 100%; /* Show one cover image at a time */
+    display: flex; /* Ensure the image is centered */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cover img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Maintain image aspect ratio */
+    background: transparent;
+  }
+  
+  .carousel-prev-button, .carousel-next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: rgb(88, 35, 35);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .carousel-prev-button {
+    left: 0;
+  }
+  
+  .carousel-next-button {
+    right: 0;
+  }
+  
+  .carousel-prev-button:hover, .carousel-next-button:hover {
+    background: #c5625d;
+  }
+  
+  /* Rest of your existing CSS for the slider */
+
+  
+  
